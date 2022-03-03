@@ -12,7 +12,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
-.nav {
+.nav1 {
   position: fixed;
   background-color: #222;
   top: 0;
@@ -21,7 +21,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.nav .container {
+.nav1 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +29,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.nav ul {
+.nav1 ul {
   font-size: 20px;
   display: flex;
   list-style-type: none;
@@ -37,29 +37,29 @@ body {
   justify-content: center;
 }
 
-.nav a {
+.nav1 a {
   color: #fff;
   text-decoration: none;
   padding: 7px 15px;
   transition: all 0.3s ease-in-out;
 }
 
-.nav.active {
+.nav1.active {
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 .logo{
   text-shadow: 1px 1px rgb(116, 114, 114);
 }
-.nav.active a {
+.nav1.active a {
   color: black;
 }
 
-.nav.active .container {
+.nav1.active .container {
   padding: 10px 0;
 }
 
-.nav a.current, .nav a:hover{
+.nav1 a.current, .nav1 a:hover{
     color: #c0392b;
     font-weight: bold;
 }

@@ -1,4 +1,4 @@
-const nav = document.querySelector('.nav')
+const nav = document.querySelector('.nav1')
 window.addEventListener('scroll', fixNav)
 
 function fixNav() {
