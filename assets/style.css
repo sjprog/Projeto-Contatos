@@ -13,6 +13,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  
 }
 .nav1 {
   position: fixed;
@@ -21,25 +22,29 @@ body {
   left: 0;
   right: 0;
   transition: all 0.3s ease-in-out;
+  
 }
 
 .nav1 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 10px 0;
   transition: all 0.3s ease-in-out;
 }
 
 .nav1 ul {
+
   font-size: 20px;
-  display: flex;
+  display:flex;
   list-style-type: none;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
+  
 }
 
 .nav1 a {
+  
   color: #fff;
   text-decoration: none;
   padding: 7px 15px;
@@ -47,10 +52,13 @@ body {
 }
 
 .nav1.active {
+  
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 .logo{
+  
+  display:flex;
   text-shadow: 1px 1px rgb(116, 114, 114);
 }
 .nav1.active a {
