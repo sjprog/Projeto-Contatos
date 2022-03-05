@@ -39,7 +39,7 @@ body {
   display:flex;
   list-style-type: none;
   align-items: center;
-  justify-content:center;
+  justify-content:right;
   
 }
 
@@ -47,7 +47,7 @@ body {
   
   color: #fff;
   text-decoration: none;
-  padding: 7px 15px;
+  padding: 7px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -58,6 +58,10 @@ body {
 }
 .logo{
   
+  
+  text-align: center;
+  justify-content:space-around;
+  width: 100%;
   display:flex;
   text-shadow: 1px 1px rgb(116, 114, 114);
 }
