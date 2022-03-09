@@ -125,17 +125,26 @@ body {
   font-size: 20px;
 }
 .pgbr-carrousel-item {
- 
-
-  
-  /* background  : linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%),;  */
+  /* background  : linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%); */
 }
 
-/* .opacidade{ 
+.opacidade {
   background-color: rgba(0, 0, 0, 0.692);
   text-align: center;
-  top:15px;
+  top: 15px;
 }
-*/
-
-
+.carousel-caption h2 {
+  color: #c0392b;
+  background-color: rgba(56, 55, 55, 0.692);
+  text-shadow: 1px 1px rgb(0, 0, 0);
+   padding: 5px;
+}
+.carousel-caption p{
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  font-size: 16px;
+  padding: 5px;
+}
+.datas{
+  color: rgb(24, 151, 7);
+  font-size: 20px;
+}
