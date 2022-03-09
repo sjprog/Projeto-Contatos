@@ -5,7 +5,8 @@
  
  https://sjprog.github.io/Projeto-Contatos/
 
- (X) Resolver o problema do nav sobre a cor
+ () Resolver o problema do nav sobre a cor
  () Quando rola a pagina o navbar some
- () Ajustar para que o texto da experiência fique responsivo
- () Deixar completo no contexto informação.
+ (x) Ajustar para que o texto da experiência fique responsivo
+ (x) concluir a experiencia.
+ () concluir a tecnologia
