@@ -9,4 +9,5 @@
  () Quando rola a pagina o navbar some
  (x) Ajustar para que o texto da experiência fique responsivo
  (x) concluir a experiencia.
- () concluir a tecnologia
+ (x) concluir a tecnologia
+ () Adicionar valores

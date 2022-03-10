@@ -125,6 +125,9 @@ body {
   color: #ec1f09;
   font-size: 20px;
 }
+
+/* inicio da aba experiência  carrosel */
+
 .pgbr-carrousel-item {
   /* background  : linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%); */
 }
@@ -152,9 +155,7 @@ body {
   font-size: 20px;
 }
 
-
-
-
+/* inicio da aba tecnologia */
 
 #tecnologias {
   border-radius: 5px;
