@@ -11,3 +11,4 @@
  (x) concluir a experiencia.
  (x) concluir a tecnologia
  () Adicionar valores
+ () refazer o projeto sidney-siqueira/kele e adicionar nesse projeto
