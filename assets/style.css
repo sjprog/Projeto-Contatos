@@ -11,6 +11,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  
 }
 .nav1 {
   position: fixed;
@@ -29,9 +30,9 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.nav1 ul {
-  background-color: #222;
-  font-size: 20px;
+.nav1 ul { 
+  padding-top: 40px; 
+  font-size: 24px;
   display: flex;
   list-style-type: none;
   align-items: center;
@@ -39,9 +40,9 @@ body {
 }
 
 .nav1 a {
-  color: #fff;
+  color: rgb(218, 209, 209);
   text-decoration: none;
-  padding: 7px;
+  padding: 9px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -70,8 +71,13 @@ body {
   font-weight: bold;
 }
 
-.offcanvas{
-  background-color: #222;
+.offcanvas{ 
+  background: rgba(255, 255, 255, 0.185);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.52);
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.082);
 }
 .offcanvas-title{
   text-shadow: 1px 1px rgb(230, 230, 230);
@@ -80,8 +86,21 @@ body {
 }
 .navbar-brand{
   width: 100%;
-  border-radius: 5px;
+  border-radius:2px ;
+  background-color: rgb(223, 222, 222);
 }
+.foto{
+  background: linear-gradient(rgba(54, 53, 53, 0.157), rgba(0, 0, 0, 0.383) 100%),
+    url(sidney.jfif); 
+  background-size: cover; 
+  border-radius: 50%;
+  border:solid #c7c7c7;  
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  padding: 10px 15px;
+  width: 90px;
+  height: 90px;
+}
+
 
 .hero {
   /* 'https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' */
@@ -111,7 +130,7 @@ body {
   z-index: -1;
 }
 
-.hero h1 {
+.hero h1 {  
   text-shadow: 3px 3px rgb(0, 0, 0);
   color: #c0392b;
   font-size: 86px;
@@ -124,9 +143,10 @@ body {
   letter-spacing: 1px;
 }
 
-.content h2 {
+.content h2 {  
+  
   font-size: 150%;
-  margin: 30px 0;
+  margin: 70px 0;
 }
 
 .content p {
@@ -145,7 +165,9 @@ body {
 .pgbr-carrousel-item {
   /* background  : linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%); */
 }
-
+.carousel-inner{
+  
+}
 .opacidade {
   background-color: rgba(0, 0, 0, 0.692);
   text-align: center;
