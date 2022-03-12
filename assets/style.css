@@ -168,21 +168,21 @@ body {
 .carousel-inner{
   
 }
-.opacidade {
-  background-color: rgba(0, 0, 0, 0.692);
+ .opacidade {
+  background-color: rgba(0, 0, 0, 0.37);
   text-align: center;
   top: 15px;
-  overflow-y: scroll;
-}
+  /* overflow-y: scroll; */
+} 
 .carousel-caption h2 {
   color: #c0392b;
-  background-color: rgba(56, 55, 55, 0.692);
+  background-color: rgba(133, 133, 133, 0.692);
   text-shadow: 1px 1px rgb(0, 0, 0);
   padding: 10px;
 }
 .carousel-caption p {
   text-shadow: 1px 1px rgb(0, 0, 0);
-  font-size: 19px;
+  font-size: 18px;
   padding: 10px;
   text-align: center;
 }
