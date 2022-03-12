@@ -285,7 +285,7 @@ body {
 }
 
 .box {
-  background-color: rgb(55, 55, 104);
+  background-color: rgb(60, 60, 63);
   color: #fff;
   display: flex;
   align-items: center;
@@ -308,6 +308,7 @@ body {
 }
 
 .box h2 {
+  text-shadow: 1px 1px rgb(0, 0, 0);
   font-size: 45px;
   text-align: center;
 }
