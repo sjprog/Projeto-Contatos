@@ -11,7 +11,6 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  
 }
 .nav1 {
   position: fixed;
@@ -30,8 +29,8 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.nav1 ul { 
-  padding-top: 40px; 
+.nav1 ul {
+  padding-top: 40px;
   font-size: 24px;
   display: flex;
   list-style-type: none;
@@ -71,36 +70,38 @@ body {
   font-weight: bold;
 }
 
-.offcanvas{ 
+.offcanvas {
   background: rgba(255, 255, 255, 0.185);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.52);
-    backdrop-filter: blur( 2.5px );
-    -webkit-backdrop-filter: blur( 1.5px );
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.082);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.52);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.082);
 }
-.offcanvas-title{
+.offcanvas-title {
   text-shadow: 1px 1px rgb(230, 230, 230);
   color: #3f3e3e;
   margin: auto;
 }
-.navbar-brand{
+.navbar-brand {
   width: 100%;
-  border-radius:2px ;
+  border-radius: 2px;
   background-color: rgb(223, 222, 222);
 }
-.foto{
-  background: linear-gradient(rgba(54, 53, 53, 0.157), rgba(0, 0, 0, 0.383) 100%),
-    url(sidney.jfif); 
-  background-size: cover; 
+.foto {
+  background: linear-gradient(
+      rgba(54, 53, 53, 0.157),
+      rgba(0, 0, 0, 0.383) 100%
+    ),
+    url(sidney.jfif);
+  background-size: cover;
   border-radius: 50%;
-  border:solid #c7c7c7;  
+  border: solid #c7c7c7;
   text-shadow: 1px 1px rgb(0, 0, 0);
   padding: 10px 15px;
   width: 90px;
   height: 90px;
 }
-
 
 .hero {
   /* 'https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' */
@@ -130,7 +131,7 @@ body {
   z-index: -1;
 }
 
-.hero h1 {  
+.hero h1 {
   text-shadow: 3px 3px rgb(0, 0, 0);
   color: #c0392b;
   font-size: 86px;
@@ -143,8 +144,7 @@ body {
   letter-spacing: 1px;
 }
 
-.content h2 {  
-  
+.content h2 {
   font-size: 150%;
   margin: 70px 0;
 }
@@ -165,15 +165,14 @@ body {
 .pgbr-carrousel-item {
   /* background  : linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%); */
 }
-.carousel-inner{
-  
+.carousel-inner {
 }
- .opacidade {
+.opacidade {
   background-color: rgba(0, 0, 0, 0.37);
   text-align: center;
   top: 15px;
   /* overflow-y: scroll; */
-} 
+}
 .carousel-caption h2 {
   color: #c0392b;
   background-color: rgba(133, 133, 133, 0.692);
@@ -271,4 +270,44 @@ body {
 
 .user-list li.hide {
   display: none;
+}
+
+/* valores */
+
+.valores {
+  background-color: #faf6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  overflow-x: hidden;
+}
+
+.box {
+  background-color: rgb(55, 55, 104);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+
+.box.show {
+  transform: translateX(0);
+}
+
+.box h2 {
+  font-size: 45px;
+  text-align: center;
 }
