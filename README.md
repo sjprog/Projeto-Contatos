@@ -10,5 +10,6 @@
  (x) Ajustar para que o texto da experiência fique responsivo
  (x) concluir a experiencia.
  (x) concluir a tecnologia
- () Adicionar valores
+ (x) Adicionar valores
  () refazer o projeto sidney-siqueira/kele e adicionar nesse projeto
+ () Acrescentar o footer
