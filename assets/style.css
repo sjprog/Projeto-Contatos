@@ -30,7 +30,6 @@ body {
 }
 
 .nav1 ul {
-  
   padding-top: 10px;
   font-size: 24px;
   display: flex;
@@ -40,7 +39,6 @@ body {
 }
 
 .nav1 a {
-  
   color: rgb(199, 196, 196);
   text-decoration: none;
   padding: 9px;
@@ -63,7 +61,6 @@ body {
   text-shadow: 1px 1px rgb(0, 0, 0);
 }
 
-
 .nav1.active .container {
   padding: 10px 0;
 }
@@ -75,14 +72,12 @@ body {
 }
 .offcanvas {
   color: rgb(0, 0, 0);
-   background: rgba(255, 255, 255, 0.185);
-  
+  background: rgba(255, 255, 255, 0.185);
+
   backdrop-filter: blur(2.5px);
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
-  
-} 
-
+}
 
 .offcanvas-title {
   text-shadow: 1px 1px rgb(73, 73, 73);
@@ -246,7 +241,6 @@ body {
   max-height: 400px;
   overflow-y: auto;
   padding: 0;
-
 }
 
 .user-list li {
