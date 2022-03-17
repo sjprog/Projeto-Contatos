@@ -30,6 +30,7 @@ body {
 }
 
 .nav1 ul {
+  
   padding-top: 10px;
   font-size: 24px;
   display: flex;
@@ -39,17 +40,15 @@ body {
 }
 
 .nav1 a {
+  
   color: rgb(199, 196, 196);
   text-decoration: none;
   padding: 9px;
   transition: all 0.3s ease-in-out;
 }
-.button{
-  color: #294ec8;
-  
-}
+
 .nav1.active {
-  background-color: rgb(255, 255, 255);
+  background-color: #521e1e;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 .logo {
@@ -60,8 +59,10 @@ body {
   text-shadow: 1px 1px rgb(116, 114, 114);
 }
 .nav1.active a {
-  color: rgb(7, 7, 7);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px rgb(0, 0, 0);
 }
+
 
 .nav1.active .container {
   padding: 10px 0;
@@ -72,26 +73,26 @@ body {
   color: #c0392b;
   font-weight: bold;
 }
-
-/* .offcanvas {
-  background: rgba(255, 255, 255, 0.185);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.52);
+.offcanvas {
+  color: rgb(0, 0, 0);
+   background: rgba(255, 255, 255, 0.185);
+  
   backdrop-filter: blur(2.5px);
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.082);
-} */
+  
+} 
 
 
 .offcanvas-title {
-  text-shadow: 1px 1px rgb(230, 230, 230);
-  color: #3f3e3e;
+  text-shadow: 1px 1px rgb(73, 73, 73);
+  color: #e0d8d8;
   margin: auto;
 }
 .navbar-brand {
   width: 100%;
   border-radius: 2px;
-  background-color: rgb(223, 222, 222);
+  background-color: rgb(71, 48, 48);
 }
 .foto {
   background: linear-gradient(
