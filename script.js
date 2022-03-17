@@ -1,13 +1,13 @@
-// const nav = document.querySelector('.nav1')
-// window.addEventListener('scroll', fixNav)
+ const nav = document.querySelector('.nav1')
+ window.addEventListener('scroll', fixNav)
 
-// function fixNav() {
-//     if(window.scrollY > nav.offsetHeight + 150) {
-//         nav.classList.add('active')
-//     } else {
-//         nav.classList.remove('active')
-//     }
-// }
+ function fixNav() {
+     if(window.scrollY > nav.offsetHeight + 150) {
+         nav.classList.add('active')
+     } else {
+         nav.classList.remove('active')
+     }
+ }
 
 
 const boxes = document.querySelectorAll('.box')

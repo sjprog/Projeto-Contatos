@@ -30,7 +30,7 @@ body {
 }
 
 .nav1 ul {
-  padding-top: 40px;
+  padding-top: 10px;
   font-size: 24px;
   display: flex;
   list-style-type: none;
@@ -44,9 +44,12 @@ body {
   padding: 9px;
   transition: all 0.3s ease-in-out;
 }
-
+.button{
+  color: #294ec8;
+  
+}
 .nav1.active {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 .logo {
@@ -57,7 +60,7 @@ body {
   text-shadow: 1px 1px rgb(116, 114, 114);
 }
 .nav1.active a {
-  color: black;
+  color: rgb(7, 7, 7);
 }
 
 .nav1.active .container {
@@ -70,14 +73,16 @@ body {
   font-weight: bold;
 }
 
-.offcanvas {
+/* .offcanvas {
   background: rgba(255, 255, 255, 0.185);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.52);
   backdrop-filter: blur(2.5px);
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.082);
-}
+} */
+
+
 .offcanvas-title {
   text-shadow: 1px 1px rgb(230, 230, 230);
   color: #3f3e3e;
@@ -314,7 +319,7 @@ body {
   text-align: center;
 }
 
-.btn{
- height: 100%;
- width: 100%;
+.btn {
+  height: 100%;
+  width: 100%;
 }
