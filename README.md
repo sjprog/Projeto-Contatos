@@ -13,6 +13,6 @@
  (x) Adicionar valores
  (X) refazer o projeto sidney-siqueira/kele e adicionar nesse projeto
  () Acrescentar o footer
- () Verificar o carrosel
+ () Verificar o carrosel e os valores que estao na frente do nav
  () Adicionar mais experiencias
  
