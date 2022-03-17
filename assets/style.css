@@ -216,7 +216,7 @@ body {
 }
 
 .bloco {
-  background-color: #294ec8;
+  background-color: #6e3f3f;
   color: #fff;
   text-shadow: 1px 1px rgb(0, 0, 0);
   padding: 30px 20px;
@@ -225,10 +225,10 @@ body {
 }
 
 .bloco input {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   border: 0;
   border-radius: 50px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   text-shadow: 1px 1px rgb(0, 0, 0);
   font-size: 14px;
   padding: 10px 15px;
@@ -240,12 +240,13 @@ body {
 }
 
 .user-list {
-  background-color: #fff;
+  background-color: rgb(253, 242, 242);
   list-style-type: none;
   margin: 0;
   max-height: 400px;
   overflow-y: auto;
   padding: 0;
+
 }
 
 .user-list li {
@@ -282,7 +283,7 @@ body {
 /* valores */
 
 .valores {
-  background-color: #cac8c8;
+  background-color: #4d3131;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -292,7 +293,7 @@ body {
 }
 
 .box {
-  background-color: rgb(60, 60, 63);
+  background-color: rgb(135, 135, 141);
   color: #fff;
   display: flex;
   align-items: center;
@@ -301,7 +302,7 @@ body {
   height: 200px;
   margin: 20px;
   border-radius: 10px;
-  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 4px 5px rgba(212, 212, 212, 0.3);
   transform: translateX(400%);
   transition: transform 0.4s ease;
 }
