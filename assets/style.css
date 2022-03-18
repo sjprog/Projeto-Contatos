@@ -5,7 +5,6 @@
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #222;
-  padding-bottom: 100px;
 }
 
 .container {
@@ -326,11 +325,10 @@ footer {
   text-shadow: 1px 1px rgb(0, 0, 0);
   border-top: 1px solid #ccc;
   height: 250px;
- 
+
   font-size: 20px;
 }
-footer a{
-  
+footer a {
   color: #ccc;
   text-shadow: 2px 2px rgb(0, 0, 0);
 }
