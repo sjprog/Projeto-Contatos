@@ -319,3 +319,38 @@ body {
   height: 100%;
   width: 100%;
 }
+
+footer {
+  color: rgb(228, 225, 225);
+  background-color: rgb(42, 41, 41);
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  border-top: 1px solid #ccc;
+  height: 250px;
+ 
+  font-size: 20px;
+}
+footer a{
+  
+  color: #ccc;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+footer i {
+  font-size: 25px;
+  margin: auto;
+}
+
+#social-icons-container {
+  padding: 25 25 25 0px;
+}
+#social-icons-container div {
+  text-align: center;
+}
+footer p {
+  text-align: center;
+  margin: 20px;
+  padding-top: 50px;
+}
+
+a:hover i {
+  color: #580606;
+}
