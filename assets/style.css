@@ -12,6 +12,7 @@ body {
   margin: 0 auto;
 }
 .nav1 {
+  z-index: 1;
   position: fixed;
   background-color: #222;
   top: 0;
